@@ -1,4 +1,3 @@
-import { Timestamp } from "mongodb";
 import mongoose from "mongoose";
 
 const productSchema = mongoose.Schema(
@@ -25,7 +24,7 @@ const productSchema = mongoose.Schema(
           type: Date,
         },
       },
-      required: true,
+      // required: true,
     },
   },
   { Timestamp: true }
