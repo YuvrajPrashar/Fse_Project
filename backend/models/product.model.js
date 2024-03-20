@@ -28,7 +28,7 @@ const productSchema = mongoose.Schema(
           type: Date,
         },
       },
-      // required: true,
+      required: true,
     },
   },
   { Timestamp: true }
