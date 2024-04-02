@@ -1,4 +1,4 @@
-import e from "express";
+import express from "express";
 import { User } from "../models/user.model.js";
 
 const registerUser = async (req, res) => {
